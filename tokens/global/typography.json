@@ -1,0 +1,40 @@
+{
+  "font": {
+    "family": {
+      "display": { "value": "'Manrope', sans-serif", "type": "fontFamily" },
+      "body": { "value": "'Inter', system-ui, sans-serif", "type": "fontFamily" }
+    },
+    "label-large": { "value": "24.75px", "type": "fontSize" },
+    "paragraph": { "value": "36px", "type": "fontSize" },
+    "label": { "value": "15.75px", "type": "fontSize" },
+    "course-theme": { "value": "13.5px", "type": "fontSize" },
+    "card-title": { "value": "22.5px", "type": "fontSize" },
+    "username": { "value": "15.75px", "type": "fontSize" },
+    "review": { "value": "11.25px", "type": "fontSize" },
+    "footer": { "value": "11.25px", "type": "fontSize" },
+    "footer-logo-name": { "value": "18px", "type": "fontSize" },
+    "button-text": { "value": "14px", "type": "fontSize" },
+    "section-title": { "value": "28px", "type": "fontSize" },
+    "page-title-hero": { "value": "40px", "type": "fontSize" },
+    "size": {
+      "label": { "value": "0.75rem", "type": "fontSize" },
+      "button-text": { "value": "0.875rem", "type": "fontSize" },
+      "sm": { "value": "0.875rem", "type": "fontSize" },
+      "base": { "value": "1rem", "type": "fontSize" },
+      "lg": { "value": "1.125rem", "type": "fontSize" },
+      "label-large": { "value": "1rem", "type": "fontSize" },
+      "xl": { "value": "1.5rem", "type": "fontSize" },
+      "2xl": { "value": "1.875rem", "type": "fontSize" }
+    },
+    "weight": {
+      "regular": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" },
+      "bold": { "value": "700", "type": "fontWeight" }
+    },
+    "lineHeight": {
+      "tight": { "value": "1.15", "type": "lineHeight" },
+      "base": { "value": "1.6", "type": "lineHeight" }
+    }
+  }
+}

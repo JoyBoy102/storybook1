@@ -1,0 +1,61 @@
+{
+  "color": {
+    "bg": {
+      "page": { "value": "#0A1420", "type": "color" },
+      "card": { "value": "#142436", "type": "color" }
+    },
+    "heading": { "value": "#EEF8FF", "type": "color" },
+    "text": {
+      "primary": { "value": "#C7D5E5", "type": "color" },
+      "secondary": { "value": "#8A9BAD", "type": "color" }
+    },
+    "border": {
+      "card": { "value": "#2A3B4D", "type": "color" }
+    },
+    "header": {
+      "glass": { "value": "rgba(10, 20, 32, 0.85)", "type": "color" }
+    },
+    "menu": {
+      "link": { "value": "#A8B8C8", "type": "color" },
+      "hover": { "value": "#A78BFA", "type": "color" },
+      "underline": { "value": "#34F6F2", "type": "color" }
+    },
+    "btn": {
+      "secondary-bg": { "value": "#5A64D9", "type": "color" },
+      "secondary-bg-hover": { "value": "#7680F2", "type": "color" },
+      "primary-text": { "value": "#FFFFFF", "type": "color" },
+      "primary-hover": { "value": "#3A73E8", "type": "color" },
+      "primary-bg": { "value": "#1A5FF5", "type": "color" }
+    },
+    "card": {
+      "title": { "value": "#EEF8FF", "type": "color" },
+      "text": { "value": "#A8B8C8", "type": "color" },
+      "hover-bg": { "value": "#1A2F45", "type": "color" },
+      "hover-shadow": { "value": "#000000", "type": "color" }
+    },
+    "footer": {
+      "bg": { "value": "#050E18", "type": "color" },
+      "text": { "value": "#EEF8FF", "type": "color" },
+      "link-hover": { "value": "#34F6F2", "type": "color" }
+    },
+    "input": {
+      "bg": { "value": "#1A2A3A", "type": "color" }
+    },
+    "cheaps": {
+      "bg": { "value": "#1A2A3A", "type": "color" }
+    },
+    "cheap": {
+      "bg": { "value": "#2A3B4D", "type": "color" },
+      "hover": { "value": "#EEF8FF", "type": "color" },
+      "text-hover": { "value": "#0B1B2B", "type": "color" }
+    },
+    "review": {
+      "card-bg": { "value": "#142436", "type": "color" }
+    },
+    "chat": {
+      "stroke": { "value": "#2A3B4D", "type": "color" },
+      "buttons": { "value": "#1A2A3A", "type": "color" }
+    },
+    "arrow": { "value": "#FFFFFF", "type": "color" }
+  }
+}

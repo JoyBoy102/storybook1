@@ -1,0 +1,52 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Tooltip
+   ========================================= */
+
+.tooltip-wrap {
+    position: relative;
+    display: inline-flex;
+}
+
+.tooltip-trigger {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid var(--color-border-card);
+    background: var(--color-bg-card);
+    color: var(--color-text-secondary);
+    font-size: var(--font-review);
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tooltip {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-heading);
+    color: var(--color-bg-card);
+    padding: 6px 10px;
+    border-radius: 12px;
+    font-size: var(--font-review);
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease, visibility 0.15s ease;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.tooltip--top { bottom: calc(100% + 8px); }
+.tooltip--bottom { top: calc(100% + 8px); }
+
+.tooltip-wrap:hover .tooltip,
+.tooltip-trigger:focus + .tooltip {
+    opacity: 1;
+    visibility: visible;
+}

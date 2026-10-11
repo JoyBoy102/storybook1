@@ -1,0 +1,37 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+[data-theme="dark"] {
+  --color-bg-page: #0a1420;
+  --color-bg-card: #142436;
+  --color-heading: #eef8ff;
+  --color-text-primary: #c7d5e5;
+  --color-text-secondary: #8a9bad;
+  --color-border-card: #2a3b4d;
+  --color-header-glass: rgba(10, 20, 32, 0.85);
+  --color-menu-link: #a8b8c8;
+  --color-menu-hover: #a78bfa;
+  --color-menu-underline: #34f6f2;
+  --color-btn-secondary-bg: #5a64d9;
+  --color-btn-secondary-bg-hover: #7680f2;
+  --color-btn-primary-text: #ffffff;
+  --color-btn-primary-hover: #3a73e8;
+  --color-btn-primary-bg: #1a5ff5;
+  --color-card-title: #eef8ff;
+  --color-card-text: #a8b8c8;
+  --color-card-hover-bg: #1a2f45;
+  --color-card-hover-shadow: #000000;
+  --color-footer-bg: #050e18;
+  --color-footer-text: #eef8ff;
+  --color-footer-link-hover: #34f6f2;
+  --color-input-bg: #1a2a3a;
+  --color-cheaps-bg: #1a2a3a;
+  --color-cheap-bg: #2a3b4d;
+  --color-cheap-hover: #eef8ff;
+  --color-cheap-text-hover: #0b1b2b;
+  --color-review-card-bg: #142436;
+  --color-chat-stroke: #2a3b4d;
+  --color-chat-buttons: #1a2a3a;
+  --color-arrow: #ffffff;
+}

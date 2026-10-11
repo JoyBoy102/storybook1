@@ -1,0 +1,18 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   CourseCardsSection — соответствует .course-cards
+   ========================================= */
+
+.course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px 21px;
+    width: 100%;
+}
+
+.course-cards > .card {
+    flex: 1 1 calc(33.333% - 21px);
+    min-width: 320px;
+}

@@ -1,0 +1,48 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Header — соответствует <header> сайта NextStep
+   ========================================= */
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 73.5px;
+}
+
+.header__logo {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.site-header__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 551px;
+    min-height: 37px;
+    gap: 8px;
+}
+
+.site-header__wide-btn {
+    width: 100%;
+    max-width: 180px;
+    height: 37px;
+}
+
+.site-header__wide-btn svg {
+    width: 37px;
+    height: 37px;
+    flex-shrink: 0;
+}
+
+.site-header .sign-in_btn {
+    width: 100%;
+    max-width: 69px;
+    height: 25px;
+}

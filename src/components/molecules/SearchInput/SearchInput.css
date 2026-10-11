@@ -1,0 +1,50 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   SearchInput — соответствует .search на сайте
+   ========================================= */
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 12px;
+    background: var(--color-bg-card);
+    width: 100%;
+    max-width: 794px;
+    height: 45px;
+    box-sizing: border-box;
+}
+
+.search > input {
+    background: var(--color-bg-card);
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 16px;
+    color: var(--color-text-primary);
+    font-family: 'Inter', sans-serif;
+}
+
+.search > input::placeholder {
+    color: var(--color-text-secondary);
+}
+
+.search > button {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.search svg {
+    width: 100%;
+    max-width: 48px;
+    height: 45px;
+}

@@ -1,0 +1,105 @@
+{
+  "color": {
+    "primitive": {
+      "blue": {
+        "50": { "value": "#EFF6FF", "type": "color" },
+        "100": { "value": "#DBEAFE", "type": "color" },
+        "500": { "value": "#3B82F6", "type": "color" },
+        "600": { "value": "#2563EB", "type": "color" },
+        "700": { "value": "#1D4ED8", "type": "color" }
+      },
+      "green": {
+        "500": { "value": "#10B981", "type": "color" },
+        "600": { "value": "#059669", "type": "color" }
+      },
+      "red": {
+        "500": { "value": "#EF4444", "type": "color" },
+        "600": { "value": "#DC2626", "type": "color" }
+      },
+      "gray": {
+        "50": { "value": "#F9FAFB", "type": "color" },
+        "100": { "value": "#F3F4F6", "type": "color" },
+        "300": { "value": "#D1D5DB", "type": "color" },
+        "500": { "value": "#6B7280", "type": "color" },
+        "700": { "value": "#374151", "type": "color" },
+        "900": { "value": "#111827", "type": "color" }
+      }
+    },
+    "semantic": {
+      "background": {
+        "default": { "value": "{color.primitive.gray.50}", "type": "color" },
+        "surface": { "value": "#FFFFFF", "type": "color" },
+        "page": { "value": "#F9FAFB", "type": "color" }
+      },
+      "text": {
+        "primary": { "value": "{color.primitive.gray.900}", "type": "color" },
+        "muted": { "value": "{color.primitive.gray.500}", "type": "color" }
+      },
+      "action": {
+        "primary-bg": { "value": "{color.primitive.blue.600}", "type": "color" },
+        "primary-bg-hover": { "value": "{color.primitive.blue.700}", "type": "color" },
+        "primary-text": { "value": "#FFFFFF", "type": "color" },
+        "secondary-bg": { "value": "{color.primitive.gray.100}", "type": "color" },
+        "secondary-bg-hover": { "value": "{color.primitive.gray.300}", "type": "color" }
+      }
+    },
+
+    "bg": {
+      "page": { "value": "#EEF8FF", "type": "color" },
+      "card": { "value": "#FFFFFF", "type": "color" }
+    },
+    "heading": { "value": "#0B1B2B", "type": "color" },
+    "text": {
+      "primary": { "value": "#2A3B4D", "type": "color" },
+      "secondary": { "value": "#5A6B7D", "type": "color" }
+    },
+    "border": {
+      "card": { "value": "#D7E3EE", "type": "color" }
+    },
+    "header": {
+      "glass": { "value": "#EEF8FF", "type": "color" }
+    },
+    "menu": {
+      "link": { "value": "#5A6B7D", "type": "color" },
+      "hover": { "value": "#7D53DE", "type": "color" },
+      "underline": { "value": "#34F6F2", "type": "color" }
+    },
+    "btn": {
+      "secondary-bg": { "value": "#7680F2", "type": "color" },
+      "secondary-bg-hover": { "value": "#ADB2E2", "type": "color" },
+      "primary-text": { "value": "#FFFFFF", "type": "color" },
+      "primary-hover": { "value": "#85A6F5", "type": "color" },
+      "primary-bg": { "value": "#054DF4", "type": "color" }
+    },
+    "card": {
+      "title": { "value": "#0B1B2B", "type": "color" },
+      "text": { "value": "#5A6B7D", "type": "color" },
+      "hover-bg": { "value": "#D1F5FF", "type": "color" },
+      "hover-shadow": { "value": "#0B1B2B", "type": "color" }
+    },
+    "footer": {
+      "bg": { "value": "#0B1B2B", "type": "color" },
+      "text": { "value": "#EEF8FF", "type": "color" },
+      "link-hover": { "value": "#34F6F2", "type": "color" }
+    },
+    "input": {
+      "bg": { "value": "#FFFFFF", "type": "color" }
+    },
+    "cheaps": {
+      "bg": { "value": "#FFFFFF", "type": "color" }
+    },
+    "cheap": {
+      "bg": { "value": "#D9D9D9", "type": "color" },
+      "hover": { "value": "#181819", "type": "color" },
+      "text-hover": { "value": "#FFFFFF", "type": "color" }
+    },
+    "review": {
+      "card-bg": { "value": "#FFFFFF", "type": "color" }
+    },
+    "chat": {
+      "stroke": { "value": "#E5E7EB", "type": "color" },
+      "buttons": { "value": "#FFFFFF", "type": "color" }
+    },
+    "arrow": { "value": "#000000", "type": "color" }
+  }
+}

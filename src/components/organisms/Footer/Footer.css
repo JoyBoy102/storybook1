@@ -1,0 +1,68 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Footer — соответствует <footer> сайта NextStep
+   ========================================= */
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-footer-bg);
+    width: 100%;
+    color: var(--color-footer-text);
+    height: 239px;
+    align-items: center;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.footer-first-part {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 140px;
+    align-items: center;
+}
+
+.footer-first-part > span {
+    text-align: center;
+    width: 140px;
+    font-size: var(--font-footer);
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-logo > span {
+    font-size: var(--font-footer-logo-name);
+    font-weight: 600;
+}
+
+.contacts-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: var(--font-footer);
+}
+
+.our-contacts-logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--color-footer-link-hover);
+}
+
+.contacts span {
+    cursor: pointer;
+}

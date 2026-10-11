@@ -1,0 +1,40 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Chip — соответствует кнопкам .popular-courses__cheaps
+   ========================================= */
+
+.chip {
+    border-radius: 12px;
+    background: var(--color-cheap-bg);
+    color: var(--color-text-primary);
+    padding: 6px;
+    min-height: 43px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: var(--font-button-text);
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.chip:hover {
+    background: var(--color-cheap-hover);
+    color: var(--color-cheap-text-hover);
+}
+
+.chip--active {
+    background: var(--color-btn-primary-bg);
+    color: var(--color-btn-primary-text);
+}
+
+.chip:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
