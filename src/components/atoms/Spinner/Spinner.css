@@ -1,0 +1,22 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Spinner — индикатор загрузки
+   ========================================= */
+
+.spinner {
+    display: inline-block;
+    border: 3px solid var(--color-border-card);
+    border-top-color: var(--color-btn-primary-bg);
+    border-radius: 50%;
+    animation: spinner-spin 0.8s linear infinite;
+}
+
+.spinner--sm { width: 16px; height: 16px; border-width: 2px; }
+.spinner--md { width: 28px; height: 28px; }
+.spinner--lg { width: 44px; height: 44px; border-width: 4px; }
+
+@keyframes spinner-spin {
+    to { transform: rotate(360deg); }
+}

@@ -1,0 +1,62 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Checkbox — соответствует .input-checkbox / .input-label
+   ========================================= */
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-text-secondary);
+    font-weight: 400;
+    font-size: var(--font-label);
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+}
+
+.checkbox-custom {
+    width: 19px;
+    height: 19px;
+    border-radius: 12px;
+    border: 2px solid var(--color-chat-stroke);
+    background: var(--color-input-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.checkbox:checked + .checkbox-custom {
+    background: var(--color-btn-primary-bg);
+    border-color: var(--color-btn-primary-bg);
+}
+
+.checkbox:checked + .checkbox-custom::after {
+    content: '✓';
+    color: var(--color-btn-primary-text);
+    font-size: 13px;
+    line-height: 1;
+}
+
+.checkbox:disabled + .checkbox-custom {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.checkbox-text {
+    color: var(--color-text-secondary);
+    font-size: var(--font-label);
+    font-weight: 400;
+}

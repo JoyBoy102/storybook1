@@ -1,0 +1,29 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   CheapsSection — соответствует .popular-courses__cheaps
+   ========================================= */
+
+.popular-courses__cheaps {
+    max-width: 1408px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 12px;
+    flex-wrap: wrap;
+    gap: 4px;
+    background: var(--color-cheaps-bg);
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.popular-courses__cheaps > * {
+    flex: 1 1 calc(5% - 4px);
+    min-width: max-content;
+    text-align: center;
+    white-space: nowrap;
+    min-height: 43px;
+}

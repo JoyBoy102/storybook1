@@ -1,0 +1,49 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   FormField — label + input + helper/error
+   ========================================= */
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+
+.form-field__label {
+    font-size: var(--font-label);
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.form-field__input {
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid var(--color-chat-stroke);
+    outline: none;
+    font-weight: 400;
+    font-size: var(--font-label);
+    color: var(--color-text-secondary);
+    background: var(--color-input-bg);
+    font-family: 'Inter', sans-serif;
+}
+
+.form-field__input:focus {
+    border-color: var(--color-btn-primary-bg);
+}
+
+.form-field__helper {
+    font-size: var(--font-review);
+    color: var(--color-text-secondary);
+}
+
+.form-field__error {
+    font-size: var(--font-review);
+    color: #DC2626;
+}
+
+.form-field--error .form-field__input {
+    border-color: #DC2626;
+}

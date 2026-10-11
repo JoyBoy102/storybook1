@@ -1,0 +1,23 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   ReviewsSection — соответствует .reviews
+   ========================================= */
+
+.reviews {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 663px;
+    color: var(--color-text-primary);
+}
+
+.reviews > svg {
+    cursor: pointer;
+}
+
+.arrow path {
+    stroke: var(--color-arrow);
+}

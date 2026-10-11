@@ -1,0 +1,40 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Pagination
+   ========================================= */
+
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.pagination__btn {
+    min-width: 37px;
+    height: 37px;
+    border-radius: 12px;
+    border: none;
+    background: var(--color-cheap-bg);
+    color: var(--color-text-primary);
+    font-size: var(--font-button-text);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.pagination__btn:hover:not(:disabled) {
+    background: var(--color-cheap-hover);
+    color: var(--color-cheap-text-hover);
+}
+
+.pagination__btn--active {
+    background: var(--color-btn-primary-bg);
+    color: var(--color-btn-primary-text);
+}
+
+.pagination__btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

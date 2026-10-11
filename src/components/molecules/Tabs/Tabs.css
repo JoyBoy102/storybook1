@@ -1,0 +1,36 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Tabs
+   ========================================= */
+
+.tabs {
+    display: flex;
+    gap: 4px;
+    border-bottom: 2px solid var(--color-border-card);
+    width: 100%;
+}
+
+.tabs__tab {
+    padding: 8px 16px;
+    border: none;
+    background: transparent;
+    color: var(--color-text-secondary);
+    font-size: var(--font-button-text);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 12px 12px 0 0;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.tabs__tab:hover {
+    color: var(--color-text-primary);
+}
+
+.tabs__tab--active {
+    color: var(--color-btn-primary-bg);
+    border-bottom-color: var(--color-btn-primary-bg);
+}

@@ -1,0 +1,31 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Input — соответствует .login-input / .password-input / .email-input
+   ========================================= */
+
+.input {
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid var(--color-chat-stroke);
+    outline: none;
+    font-weight: 400;
+    font-size: var(--font-label);
+    color: var(--color-text-secondary);
+    background: var(--color-input-bg);
+    font-family: 'Inter', sans-serif;
+}
+
+.input::placeholder {
+    color: var(--color-text-secondary);
+}
+
+.input:focus {
+    border-color: var(--color-btn-primary-bg);
+}
+
+.input:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

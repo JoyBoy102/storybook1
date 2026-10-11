@@ -1,0 +1,61 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Card — соответствует .course-card на сайте NextStep
+   ========================================= */
+
+.card {
+    box-sizing: border-box;
+    display: flex;
+    gap: 12px;
+    height: 229px;
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border-card);
+    border-radius: 12px;
+    padding: 12px;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card svg,
+.card__image {
+    width: 100%;
+    max-width: 126px;
+    display: block;
+}
+
+.card__image {
+    max-width: 126px;
+    height: auto;
+    object-fit: cover;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    height: 100%;
+    max-height: 138px;
+    width: 100%;
+    max-width: 301px;
+}
+
+.card__text > :nth-child(1) {
+    font-size: var(--font-card-title);
+    font-weight: 600;
+    color: var(--color-card-title);
+}
+
+.card__text > :nth-child(2) {
+    font-size: var(--font-label);
+    font-weight: 400;
+    color: var(--color-card-text);
+}

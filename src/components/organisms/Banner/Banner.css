@@ -1,0 +1,57 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Banner — соответствует .banner (hero)
+   ========================================= */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.banner__text {
+    width: 100%;
+    max-width: 589px;
+    min-height: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.banner__text h1 {
+    font-size: var(--font-paragraph);
+    color: var(--color-text-primary);
+    font-weight: 700;
+    margin: 0;
+}
+
+.banner__text h2 {
+    font-size: var(--font-label-large);
+    font-weight: 400;
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+.banner__img {
+    display: block;
+    width: 100%;
+    max-width: 819px;
+    height: auto;
+    aspect-ratio: 819 / 428;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.banner__img--placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D9D9D9;
+    color: var(--color-text-secondary);
+    font-size: var(--font-label);
+}

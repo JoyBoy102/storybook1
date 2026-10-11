@@ -1,0 +1,103 @@
+@import '../../../styles/tokens.css';
+@import '../../../styles/tokens-dark.css';
+
+/* =========================================
+   Button — соответствует кнопкам сайта NextStep
+   ========================================= */
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: var(--font-button-text);
+    font-weight: 600;
+    padding: 0 20px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Размеры — как на сайте */
+.btn--sm {
+    height: 25px;
+    padding: 3px 18px;
+    font-size: var(--font-label);
+    font-weight: 400;
+}
+
+.btn--md {
+    height: 37px;
+    padding: 0 20px;
+}
+
+.btn--lg {
+    height: 48px;
+    padding: 0 24px;
+    font-size: var(--font-card-title);
+}
+
+/* =========================================
+   Primary (синяя #054DF4) — как .sign-in_btn и .submit-btn
+   ========================================= */
+.btn--primary {
+    background: var(--color-btn-primary-bg);
+    color: var(--color-btn-primary-text);
+}
+
+.btn--primary:hover {
+    background: var(--color-btn-primary-hover);
+}
+
+/* =========================================
+   Secondary (сине-фиолетовая #7680F2) — как остальные кнопки хедера
+   ========================================= */
+.btn--secondary {
+    background: var(--color-btn-secondary-bg);
+    color: var(--color-btn-primary-text);
+}
+
+.btn--secondary:hover {
+    background: var(--color-btn-secondary-bg-hover);
+}
+
+/* =========================================
+   Ghost (прозрачная с рамкой)
+   ========================================= */
+.btn--ghost {
+    background: transparent;
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border-card);
+}
+
+.btn--ghost:hover {
+    background: rgba(118, 128, 242, 0.1);
+    color: var(--color-menu-hover);
+}
+
+/* =========================================
+   Danger
+   ========================================= */
+.btn--danger {
+    background: #DC2626;
+    color: #FFFFFF;
+}
+
+.btn--danger:hover {
+    background: #B91C1C;
+}
+
+/* =========================================
+   Focus / Disabled
+   ========================================= */
+.btn:focus-visible {
+    outline: 3px solid var(--color-btn-primary-bg);
+    outline-offset: 2px;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
